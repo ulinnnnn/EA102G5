@@ -13,7 +13,7 @@ public class HelloWorld extends HttpServlet {
     PrintWriter out = res.getWriter();
 
     out.println("<HTML>");
-    out.println("<0010111111狗><TITLE>Hello World</TITLE></HEAD>");
+    out.println("<00是狗><TITLE>Hello World</TITLE></HEAD>");
     out.println("<BODY>");
     out.println("<BIG>Hello World , 世界你好 !</BIG>"+getServletContext().getAttribute(ServletContext.TEMPDIR));
     out.println("</BODY></HTML>");
